@@ -1,0 +1,46 @@
+[package]
+name = "c_common_20"
+version = "0.1.0"
+authors = ["ciyool <ciyool@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = { version = "0.*", features = ["serde"] }
+dotenv = "0.*"
+log="0.4"
+env_logger = "0.6"
+failure = "0.1"
+#r2d2 = "0.8"
+serde="1.0"
+serde_derive="1.0"
+serde_json="1.0"
+serde_urlencoded = "0.5" #urlencode
+#uuid = { version = "0.7", features = ["serde", "v5"] }
+time="0.1"
+openssl="0.10"
+hex="0.3"
+rand="0.6"
+#reqwest="0.9"
+json="0.11"
+xml-rs = "0.8"
+#curl = "0.*"
+url = "*"
+urlencoding = "1.0.0"
+md5 = "0.6"
+base64="0.10"
+v_htmlescape = "0.4" #html 转义
+colored = "1.*" #控制台彩色显示
+
+#域名到ip
+trust-dns-client = "*"
+trust-dns-proto = "*"
+
+reqwest = {version="0.*",features = ["default-tls","json","cookies","gzip"]}
+
+#aes-soft="0.3"
+#block-modes="0.3"
+#hex-literal="0.1"
+
+[dependencies.uuid]
+features = ["serde", "v4"]
+version = "^0.6.0"
