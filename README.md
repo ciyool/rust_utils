@@ -1,5 +1,11 @@
 # rust_utils
-rust common utils
+c_crypto; c_datetime; c_domain; c_http; c_macro; c_models; c_serde_json; c_string; c_utils; c_xml;
+
+# Usage
+```
+[dependencies]
+c_common_20={ path = "../c_common_20" }
+```
 
 # c_crypto
 Base64_Decrypt、Base64_Encrypt、Md5、Sha1、Sha256、AES_128_CBC_Decrypt、AES_128_CBC_Encrypt、rsa_encrypt、rsa_decrypt、sign_rsa2、hmac_SHA1、sign_check_rsa2_private_key、sign_check_rsa2_public_key、ali_urlencode_pop
